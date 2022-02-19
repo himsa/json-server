@@ -1,0 +1,5 @@
+{
+    "/api/v1/": "/$1",
+    "/api/v1/feed/:feedId/show": "/feeds?feedId=:feedId",
+    "/api/v1/feed/:feedId/subscribe": "/feeds/:feedId"
+}
