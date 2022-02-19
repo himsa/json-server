@@ -1,0 +1,388 @@
+{
+	"info": {
+		"_postman_id": "08cfa5ae-6bdc-4395-afb5-9d477aabd3ec",
+		"name": "api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/feeds",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"feeds"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get list",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/feeds",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"feeds"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, Accept-Encoding"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"282f-/7Qr4ZeXcpZCQ2K232ebEloG5mk\""
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 03:40:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"feedId\": 0,\n        \"feedName\": \"snake\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 1,\n        \"feedName\": \"lion\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 2,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 3,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 4,\n        \"feedName\": \"cow\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 5,\n        \"feedName\": \"rabbit\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 6,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 7,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 8,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 9,\n        \"feedName\": \"horse\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 10,\n        \"feedName\": \"horse\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 11,\n        \"feedName\": \"cat\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 12,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 13,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 14,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 15,\n        \"feedName\": \"bear\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 16,\n        \"feedName\": \"bear\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 17,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 18,\n        \"feedName\": \"snake\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 19,\n        \"feedName\": \"rabbit\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 20,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 21,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 22,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 23,\n        \"feedName\": \"insect\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 24,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 25,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 26,\n        \"feedName\": \"bear\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 27,\n        \"feedName\": \"snake\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 28,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 29,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 30,\n        \"feedName\": \"rabbit\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 31,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 32,\n        \"feedName\": \"horse\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 33,\n        \"feedName\": \"snake\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 34,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 35,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 36,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 37,\n        \"feedName\": \"cat\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 38,\n        \"feedName\": \"bear\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 39,\n        \"feedName\": \"lion\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 40,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 41,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 42,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 43,\n        \"feedName\": \"cat\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 44,\n        \"feedName\": \"cow\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 45,\n        \"feedName\": \"lion\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 46,\n        \"feedName\": \"bear\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 47,\n        \"feedName\": \"horse\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 48,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 49,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 50,\n        \"feedName\": \"rabbit\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 51,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 52,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 53,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 54,\n        \"feedName\": \"cat\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 55,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 56,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 57,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 58,\n        \"feedName\": \"cat\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 59,\n        \"feedName\": \"rabbit\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 60,\n        \"feedName\": \"snake\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 61,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 62,\n        \"feedName\": \"cow\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 63,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 64,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 65,\n        \"feedName\": \"insect\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 66,\n        \"feedName\": \"cat\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 67,\n        \"feedName\": \"cow\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 68,\n        \"feedName\": \"insect\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 69,\n        \"feedName\": \"lion\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 70,\n        \"feedName\": \"horse\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 71,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 72,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 73,\n        \"feedName\": \"snake\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 74,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 75,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 76,\n        \"feedName\": \"cow\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 77,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 78,\n        \"feedName\": \"bear\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 79,\n        \"feedName\": \"cat\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 80,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 81,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 82,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 83,\n        \"feedName\": \"insect\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 84,\n        \"feedName\": \"bird\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 85,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 86,\n        \"feedName\": \"horse\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 87,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 88,\n        \"feedName\": \"cat\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 89,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 90,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 91,\n        \"feedName\": \"bear\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 92,\n        \"feedName\": \"lion\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 93,\n        \"feedName\": \"crocodilia\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 94,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 95,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 96,\n        \"feedName\": \"dog\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 97,\n        \"feedName\": \"lion\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 98,\n        \"feedName\": \"fish\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    },\n    {\n        \"feedId\": 99,\n        \"feedName\": \"cetacean\",\n        \"subscribe\": false,\n        \"subscriptionId\": null\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "subscribe",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"subscribe\": true,\n    \"subscriptionId\": \"subsId0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/feed/0/subscribe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"feed",
+						"0",
+						"subscribe"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "subscribe",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscribe\": true,\n    \"subscriptionId\": \"subsId0\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/feed/0/subscribe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"feed",
+								"0",
+								"subscribe"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, Accept-Encoding"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "95"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5f-LXhjjjuFiO5VDkUCXYoOb5t0huE\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 03:37:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"feedId\": 0,\n    \"feedName\": \"cetacean\",\n    \"subscribe\": true,\n    \"subscriptionId\": \"subsId0\"\n}"
+				}
+			]
+		},
+		{
+			"name": "unsubscribe",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"subscribe\": false,\n    \"subscriptionId\": null\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/feed/0/subscribe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"feed",
+						"0",
+						"subscribe"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "unsubscribe",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscribe\": false,\n    \"subscriptionId\": null\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/feed/0/subscribe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"feed",
+								"0",
+								"subscribe"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, Accept-Encoding"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "88"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"58-GMzJIB6Tu4bSpuiThtMEftCYb2M\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Feb 2022 03:39:50 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"feedId\": 0,\n    \"feedName\": \"snake\",\n    \"subscribe\": false,\n    \"subscriptionId\": null\n}"
+				}
+			]
+		}
+	]
+}
